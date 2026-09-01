@@ -1,0 +1,8 @@
+allowBuilds:
+  bufferutil: false
+  esbuild: true
+  utf-8-validate: false
+
+overrides:
+  tmp: 0.2.7
+  ws: 8.21.0
