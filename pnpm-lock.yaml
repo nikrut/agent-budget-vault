@@ -19,8 +19,8 @@ importers:
         specifier: 7.9.2
         version: 7.9.2
       solc:
-        specifier: 0.8.30
-        version: 0.8.30
+        specifier: 0.8.36
+        version: 0.8.36
       tsx:
         specifier: 4.23.13
         version: 4.23.13
@@ -787,8 +787,8 @@ packages:
   siginfo@2.0.0:
     resolution: {integrity: sha512-ybx0WO1/8bSBLEWXZvEd7gMW3Sn3JFlW3TvX1nREbDLRNQNaeNN8WK0meBwPdAaOI7TtRRRJn/Es1zhrrCHu7g==}
 
-  solc@0.8.30:
-    resolution: {integrity: sha512-9Srk/gndtBmoUbg4CE6ypAzPQlElv8ntbnl6SigUBAzgXKn35v87sj04uZeoZWjtDkdzT0qKFcIo/wl63UMxdw==}
+  solc@0.8.36:
+    resolution: {integrity: sha512-cnDhjWo8dC5FxnEwCrWxUsJS7RPsHf+pVUe9Tr/+b15sQ40WCVn4vX4R+tOvN5gRfEgiquvFzfF4VV0kSnknhw==}
     engines: {node: '>=12.0.0'}
     hasBin: true
 
@@ -1505,7 +1505,7 @@ snapshots:
 
   siginfo@2.0.0: {}
 
-  solc@0.8.30:
+  solc@0.8.36:
     dependencies:
       command-exists: 1.2.9
       commander: 8.3.0

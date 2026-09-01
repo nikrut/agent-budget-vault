@@ -22,7 +22,7 @@
   "devDependencies": {
     "@types/node": "26.4.0",
     "ganache": "7.9.2",
-    "solc": "0.8.30",
+    "solc": "0.8.36",
     "tsx": "4.23.13",
     "typescript": "7.0.2",
     "viem": "2.56.1",
