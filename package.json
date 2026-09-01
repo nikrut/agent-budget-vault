@@ -1,0 +1,31 @@
+{
+  "name": "agent-budget-vault",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@11.19.0",
+  "description": "Onchain execution budgets and calldata validation for autonomous agents on a Sepolia L2 testnet.",
+  "scripts": {
+    "build": "node --import tsx scripts/compile.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "deploy:sepolia": "node --env-file=.env --import tsx scripts/deploy.ts",
+    "wallet:create": "node --import tsx scripts/create-wallet.ts",
+    "secret:scan": "node --import tsx scripts/scan-secrets.ts",
+    "security:audit": "pnpm audit --audit-level=moderate",
+    "check": "pnpm typecheck && pnpm build && pnpm test && pnpm secret:scan"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "devDependencies": {
+    "@types/node": "26.4.0",
+    "ganache": "7.9.2",
+    "solc": "0.8.30",
+    "tsx": "4.23.13",
+    "typescript": "7.0.2",
+    "viem": "2.56.1",
+    "vitest": "4.1.11"
+  }
+}
